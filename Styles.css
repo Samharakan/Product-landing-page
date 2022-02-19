@@ -135,6 +135,7 @@ flex-wrap: wrap;
 display: flex;
 align-items: center;
 width: 45%;
+height: 18vh;
 padding: 0.5rem;
 justify-content: center;
 background-color: #3882f6;
