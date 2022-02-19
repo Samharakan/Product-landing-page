@@ -1,0 +1,191 @@
+body {
+background-color: #1f2937;
+margin: 0;
+justify-content: center;
+text-align: center;
+color: #fff;
+}
+
+    /*         header styling        */
+
+header{
+width: 100%;
+height: 15vh;
+}
+
+.navlink {
+text-decoration: none;
+text-align: center;
+padding: 1px 2px;
+margin: 0.85rem;
+width: 5rem;
+height: 2rem;
+color: #fff;
+justify-content: center;
+align-items: center;
+}
+
+#navlist {
+list-style-type: none;
+text-align: center;
+margin: 0;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+float: right;
+justify-content: center;
+align-items: center;
+}
+
+#logo-image {
+float: left;
+margin: 0.35rem;
+object-fit: contain;
+width: 5rem;
+border-radius: 5px;
+border: 2px solid rgb(110, 201, 6);
+}
+
+#top-btn {
+border: 0;
+}
+
+#navlist :hover {
+background-color: #091529;
+}
+
+/*        End of header styling      */
+
+/*  main section styling    */
+
+.main-section {
+height: 50vh;
+}
+
+.mainsect-div {
+width: 50%;
+height: 60%;
+}
+
+#main-sectdiv-2{
+    border: 3px solid rgb(110, 202, 18);
+    border-radius: 10px;
+    width: 40%;
+    height: 15rem;
+    background-image: url('https://github.com/Samharakan/freecodecamp/blob/main/VPN-gratis-1000x600.jpg?raw=true');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.mainsect-div h1{
+font-size: 2rem;
+}
+
+#start-section  {
+display: flex;
+text-align: left;
+padding: 2.5rem;
+}
+
+#flex-container {
+display: flex;
+width: auto;
+height: 15rem;
+flex-wrap: wrap;
+}
+
+.features {
+flex:1;
+flex-wrap: wrap;
+max-width: 90%;
+height: 14rem;
+}
+
+#mid2-section {
+color:rgb(61, 58, 58);
+background-color: #e5e7eb;
+align-content: center;
+text-align: left;
+padding: 1rem 0 0 0;
+}
+
+#mid2-section h1{
+padding: 0 4rem;
+font-size: 2rem;
+color: rgb(110, 201, 6);
+}
+
+#mid2-section h2{
+color: rgb(19, 31, 49);
+padding: 0 4rem;
+}
+
+#mid2-section p{
+padding: 0 4rem;
+}
+
+#bottom-div {
+margin: 10% 20%;
+border-radius: 5px;
+flex-wrap: wrap;
+display: flex;
+align-items: center;
+width: 45%;
+padding: 0.5rem;
+justify-content: center;
+background-color: #3882f6;
+}
+
+#bottom-div > div {
+margin: 2rem;
+flex: 0 2 10%;
+}
+
+#bottom-section {
+background-color: #fff;
+border: 2px solid;
+}
+
+.signup-btn {
+background-color: #3882f6;
+color: #fff;
+position: relative;
+border-radius: 5px;
+border: 2px solid #fff;
+width: 6em;
+height: 2em;
+}
+
+h3 {
+margin: 0;
+padding: 0;
+}
+
+#mid1-section {
+background-color: #fff;
+color: #1f2937;
+padding: 1rem 0 0 0;
+font-size: 1.6rem;
+height: 25rem;
+}
+
+#main-img {
+max-width: 100%;
+height: 10rem;
+}
+.icons {
+max-width: 100%;
+border-radius:  5px;
+flex-wrap: wrap;
+margin: 0;
+padding: 0;
+}
+
+#mid1-section p{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*             End 0f styling                     */
